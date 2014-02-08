@@ -53,4 +53,6 @@ Should you have any feedback/input/ideas/suggestions, you are welcome
 to send them to me, Pól Ua Laoínecháin (linehanp@tcd.ie).
   
   
+This software is ©  Pól Ua Laoínecháin.
+
 

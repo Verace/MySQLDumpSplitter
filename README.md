@@ -10,7 +10,7 @@ and the programme will output (in the same directory) a number
 of SQL files corresponding to the tables in that database
 dump. It has been tested on Linux (Ubuntu 12.04 LTS),  Windows 7 and Darwin 12.4.
 
-Note, the version of Java must be 1.7. The "raw" code (i.e. mine) will work with 1.6, but something about
+Note, the version of Java must be 1.7. The "raw" code (i.e. mine) does work with 1.6, but something about
 the underlying Java GUI libraries fails on 1.6 and I am not in a position to support multiple JDKs/JREs.
 
 It has been tested on a single schema only and not on an

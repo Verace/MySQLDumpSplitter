@@ -10,8 +10,8 @@ and the programme will output (in the same directory) a number
 of SQL files corresponding to the tables in that database
 dump. It has been tested on Linux (Ubuntu 12.04 LTS),  Windows 7 and Darwin 12.4.
 
-Note, the version of Java must be 1.7. The code will work with 1.6, but something about
-the GUI libraries fails on 1.6 and I am not in a position to support multiple JDKs/JREs.
+Note, the version of Java must be 1.7. The "raw" code (i.e. mine) will work with 1.6, but something about
+the underlying Java GUI libraries fails on 1.6 and I am not in a position to support multiple JDKs/JREs.
 
 It has been tested on a single schema only and not on an
 entire server with multiple schemas. At this point, for example,
@@ -29,6 +29,10 @@ but will not work for this
 
 mysqldump -u root -p --compatible=ansi,no_table_options,no_field_options,no_key_options 
 --hex-blob --skip-opt myschema > importansi.sql
+
+or
+
+mysqldump -d -u root -p myschema > nodatadump.sql (no data at all).
 
 This is because it depends on an "UNLOCK TABLES;" command being present in
 the dumpfile. I have examined this and a two-pass solution (inelegant?) may be necessary. Watch this space.

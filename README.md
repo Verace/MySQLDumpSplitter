@@ -8,7 +8,7 @@ The code in this repository is basic but functional. It does
 what it says on the tin. The user chooses a MySQL dumpfile
 and the programme will output (in the same directory) a number
 of SQL files corresponding to the tables in that database
-dump. It has been tested on Linux (Ubuntu 12.04 LTS),  Windows 7 and Darwin 12.4.
+dump. It has been tested on Linux (Ubuntu 12.04 LTS),  Windows 7 and Darwin 12.4.0 (all 64 bit).
 
 Note, the version of Java must be 1.7. The "raw" code (i.e. mine) does work with 1.6, but something about
 the underlying Java GUI libraries fails on 1.6 and I am not in a position to support multiple JDKs/JREs.
@@ -43,7 +43,7 @@ endeavour to update as and when required.
 
 For those of you who are not Github/Java gurus, a .jar file is
 available from the release link at the top of the project home
-page.
+page. The release will only work on 64 bit systems.
 
 The command to issue is
 java -jar MySQLDumpSplitter.jar 

@@ -42,8 +42,7 @@ using this code as the basis for a porting project and I will
 endeavour to update as and when required.
 
 For those of you who are not Github/Java gurus, a .jar file is
-available from the release link at the top of the project home
-page. The release will only work on 64 bit systems.
+available from here: http://dl.bintray.com/verace/MySQLDumpSplitter/jar/. The release will only work on 64 bit systems.
 
 The command to issue is
 java -jar MySQLDumpSplitter.jar 

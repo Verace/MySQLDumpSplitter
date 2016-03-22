@@ -47,11 +47,7 @@ available from here: http://dl.bintray.com/verace/MySQLDumpSplitter/jar/. The re
 The command to issue is
 java -jar MySQLDumpSplitter.jar 
 from the directory where the file is.
+  
 
-Should you have any feedback/input/ideas/suggestions, you are welcome 
-to send them to me, Pól Ua Laoínecháin (linehanp@tcd.ie).
-  
-  
-This software is ©  Pól Ua Laoínecháin.
 
 
